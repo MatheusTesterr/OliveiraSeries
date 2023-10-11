@@ -9,5 +9,4 @@ export async function serverLogin() {
 
 export async function serverLogout() {
     cookies().delete("usuario")
-    3333
 }
